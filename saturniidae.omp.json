@@ -1,0 +1,98 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#e1c24a",
+          "properties": {
+            "root_icon": ""
+          }
+        },
+        {
+          "type": "os",
+          "style": "powerline",
+          "background": "#684428",
+          "foreground": "#e3e1ba",
+          "invert_powerline": true,
+          "powerline_symbol": "",
+          "properties": {
+            "style": "mixed"
+          }
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#b66528",
+          "foreground": "#e3e1ba"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#e1c24a",
+          "foreground": "#353827",
+          "properties": {
+            "style": "full"
+          }
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "",
+          "background": "#a5be59",
+          "foreground": "#353827",
+          "properties": {
+            "display_stash_count": true,
+            "working_color": "#bf4c2d",
+            "staging_color": "#455023"
+          }
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "type": "exit",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "background": "#bf4c2d",
+          "foreground": "#e3e1ba"
+        },
+        {
+          "type": "executiontime",
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "background": "#353827",
+          "foreground": "#e3e1ba"
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#e3e1ba",
+          "properties": {
+            "text": "> "
+          }
+        }
+      ]
+    }
+  ]
+}
