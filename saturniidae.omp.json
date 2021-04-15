@@ -44,16 +44,6 @@
           }
         },
         {
-          "type": "node",
-          "style": "powerline",
-          "background": "#a5be59",
-          "foreground": "#353827",
-          "powerline_symbol": "",
-          "properties": {
-            "display_mode": "context"
-          }
-        },
-        {
           "type": "git",
           "style": "powerline",
           "powerline_symbol": "",
@@ -63,6 +53,16 @@
             "display_stash_count": true,
             "working_color": "#7e271b",
             "staging_color": "#455023"
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "background": "#e3e1ba",
+          "foreground": "#353827",
+          "powerline_symbol": "",
+          "properties": {
+            "display_mode": "context"
           }
         }
       ]
@@ -95,7 +95,8 @@
           "background": "#353827",
           "foreground": "#e3e1ba",
           "properties": {
-            "style": "amarillo"
+            "style": "amarillo",
+            "threshold": 100
           }
         }
       ]
