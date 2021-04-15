@@ -9,6 +9,7 @@
           "type": "root",
           "style": "plain",
           "foreground": "#e1c24a",
+          "background": "transparent",
           "properties": {
             "root_icon": ""
           }
@@ -27,29 +28,40 @@
         {
           "type": "session",
           "style": "powerline",
-          "powerline_symbol": "",
+          "powerline_symbol": "",
           "background": "#b66528",
           "foreground": "#e3e1ba"
         },
         {
           "type": "path",
           "style": "powerline",
-          "powerline_symbol": "",
+          "powerline_symbol": "",
           "background": "#e1c24a",
           "foreground": "#353827",
           "properties": {
-            "style": "full"
+            "style": "full",
+            "folder_separator_icon": "/"
+          }
+        },
+        {
+          "type": "node",
+          "style": "powerline",
+          "background": "#a5be59",
+          "foreground": "#353827",
+          "powerline_symbol": "",
+          "properties": {
+            "display_mode": "context"
           }
         },
         {
           "type": "git",
           "style": "powerline",
-          "powerline_symbol": "",
+          "powerline_symbol": "",
           "background": "#a5be59",
           "foreground": "#353827",
           "properties": {
             "display_stash_count": true,
-            "working_color": "#bf4c2d",
+            "working_color": "#7e271b",
             "staging_color": "#455023"
           }
         }
@@ -62,18 +74,29 @@
         {
           "type": "exit",
           "style": "diamond",
-          "leading_diamond": "",
+          "leading_diamond": "",
           "trailing_diamond": "",
-          "background": "#bf4c2d",
-          "foreground": "#e3e1ba"
+          "background": "#353827",
+          "foreground": "#e3e1ba",
+          "properties": {
+            "error_color": "#7e271b",
+            "color_background": true,
+            "always_enabled": false,
+            "display_exit_code": true,
+            "success_icon": "<green>\u2713</>",
+            "error_icon": "\u2717 "
+          }
         },
         {
           "type": "executiontime",
           "style": "diamond",
-          "leading_diamond": "",
+          "leading_diamond": " ",
           "trailing_diamond": "",
           "background": "#353827",
-          "foreground": "#e3e1ba"
+          "foreground": "#e3e1ba",
+          "properties": {
+            "style": "amarillo"
+          }
         }
       ]
     },
@@ -85,11 +108,11 @@
       "alignment": "left",
       "segments": [
         {
-          "type": "text",
+          "type": "shell",
           "style": "plain",
           "foreground": "#e3e1ba",
           "properties": {
-            "text": "> "
+            "postfix": " > "
           }
         }
       ]
