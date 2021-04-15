@@ -1,8 +1,6 @@
 # Saturniidae Oh-My-Posh Theme
 An OMP theme based on the colors of the spanish moon moth.
 
-![The theme in action](https://raw.githubusercontent.com/satyrnidae/saturniidae-omp/main/Images/saturniidae.png)
-
 ## Features
 - Full path readout
 - Error codes
