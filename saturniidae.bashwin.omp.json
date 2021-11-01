@@ -39,7 +39,8 @@
           "background": "#e1c24a",
           "foreground": "#353827",
           "properties": {
-            "style": "full"
+            "style": "full",
+            "folder_separator_icon": "/"
           }
         },
         {
